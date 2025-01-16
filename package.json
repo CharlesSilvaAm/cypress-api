@@ -1,0 +1,35 @@
+{
+  "name": "cypress-api",
+  "version": "1.0.0",
+  "description": "Projeto Rastreabilidade",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "allure:report": "allure generate allure-results --clean -o allure-report"
+  },
+  "keywords": [
+    "cypress",
+    "API",
+    "rastreabilidade",
+    "Sqlserver",
+    "insomnia",
+    "swagger."
+  ],
+  "author": "Charles Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.24.0",
+    "cypress": "12.2.0",
+    "cypress-allure-plugin": "git+https://github.com/Shelex/cypress-allure-plugin",
+    "cypress-image-snapshot": "^4.0.1",
+    "cypress-plugin-api": "^2.11.1",
+    "faker": "^6.6.6",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "mssql": "^9.1.1",
+    "sqlserver": "^0.0.2-security",
+    "yarn": "^1.22.19"
+  }
+}

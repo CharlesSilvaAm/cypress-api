@@ -1,0 +1,49 @@
+{
+    "searchlist": {
+        "name": "Rast-test",
+        "register": "Rest",
+        "email": "user_name@tests.com",
+        "role": 0
+    },
+
+
+    "searchparam": {
+        "ValueLog": "Jabil rastreabilidade",
+        "ValueConverted": "rest-jabil"
+    },
+    "querystring": {"Process":"0"},
+
+    "searchitems":{
+        "id": "string",
+        "grn": "string",
+        "material": "placa",
+        "material_descr": "string",
+        "material_group": "string",
+        "vendor": "string",
+        "lot": "string",
+        "datecode": "string",
+        "manufacturer": "string",
+        "mpn": "string",
+        "original_quantity": 0
+    },
+    "searchcause":     {
+        "description": "RastreabilidadeApi",
+        "actionPlan": "PA"
+    },
+    "searchticket": {
+        "description": "stringstri",
+        "serial": "stringstri",
+        "causes": [
+          "string"
+        ]
+    },
+    "searchticketserial": {
+        "description": "stringstri",
+        "serial": "stringstri",
+        "causes": [
+          "string"
+        ]
+      }
+
+
+}

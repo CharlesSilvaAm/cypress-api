@@ -1,0 +1,35 @@
+{
+    "authlogin": {
+        "login": "ti",
+        "password": "12345678"
+    },
+    "inv_pass": {
+        "login": "ti",
+        "password": "123456"
+    },
+    "register_404": {
+        "login": "@404",
+        "password": "123456"
+    },
+    "autheng": {
+        "login": "eng",
+        "password": "12345678"
+    },
+    "authfct": {
+        "register": "operador_FCT",
+        "password": "@Jabil2023"
+    },
+    "authict": {
+        "register": "operador_ICT",
+        "password": "@Jabil2023"
+    },
+    "authpcb": {
+        "register": "operador_PCB",
+        "password": "@Jabil2023"
+    },
+    "authman": {
+        "register": "operador_MAN",
+        "password": "@Jabil2023"
+    }
+}
+

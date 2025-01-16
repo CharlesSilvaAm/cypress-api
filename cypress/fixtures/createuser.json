@@ -1,0 +1,435 @@
+{
+    "create": {
+        "name": "Testando-Rast",
+        "login": "testando-API",
+        "register": "testandoAPI",
+        "email": "user_api@teste.com",
+        "role": 0,
+        "password": "12345678",
+        "isProduction": true
+      },
+    "dup_user": {
+        "name": "Test-Rest",
+        "register": "TestRest",
+        "email": "user_Rest@tests.com",
+        "role": 0
+    },
+    "required": {
+        "name": "Rastre",
+        "register": "TestApiRest",
+        "email": "icts@gmail.com",
+        "role": 0
+    },
+    "create_grnallowed": {
+        "stepId": "3c5815cd-a993-47cc-bf5d-0674492c9019",
+        "material": "testeRastreabilidade",
+        "material_descr": "rastreabilidadeTeste"
+    },
+    "create_stepconfig": {
+        "step": "1-SEQUENTIAL",
+        "grnsConsumes": [
+          {
+            "grn": "JV123456789",
+            "quantity": 30
+          }
+        ]
+    },
+    "create_param": {
+        "valueLog": "test-rest-API",
+        "valueConverted": "rest-API"
+    },
+    "create_item": {
+        "grn": "JV123456789",
+        "material": "testeRastreabilidade",
+        "material_descr": "testeRastreabilidade",
+        "material_group": "testeRastreabilidade",
+        "vendor": "testeRastreabilidade",
+        "lot": "testeRastreabilidade",
+        "datecode": "testeRastreabilidade",
+        "manufacturer": "testeRastreabilidade",
+        "mpn": "testeRastreabilidade",
+        "original_quantity": 30
+    },
+    "create_cause":{
+        "description": "TestesApiRastreabilidade",
+        "actionPlan": "RastreabilidadeTestado",
+        "sector": 0
+    },
+    "blank_cause":{
+        "description": "",
+        "actionPlan": "RastreabilidadeTestado",
+        "sector": 0
+    },
+    "blank_causeplan":{
+        "description": "TestesApiRastreabilidade",
+        "actionPlan": "",
+        "sector": 0
+    },
+    "inv_cause":{
+        "description": "TestesApiRastreabilidade",
+        "actionPlan": "RastreabilidadeTestado",
+        "sector": 8
+    },
+    "create_ticket":{
+        "description": "Testes-Api-Rastreabilidade",
+        "serial": "JV123456000",
+        "causes": [
+          "CS010"
+        ]
+    },
+    "ticket_inv_description":{
+        "description": "Testes",
+        "serial": "grn123456789",
+        "causes": [
+          "CS010"
+        ]
+    },
+    "ticket_inv_serial":{
+        "description": "Testes-Api-Rastreabilidade",
+        "serial": "teste",
+        "causes": [
+          "CS010"
+        ]
+    },
+    "ticket_inv_causes":{
+        "description": "Testes-Api-Rastreabilidade",
+        "serial": "grn123456744",
+        "causes": [
+          "inv"
+        ]
+    },
+    "ticket_spaces_descript":{
+        "description": "                        ",
+        "serial": "grn123456000",
+        "causes": [
+          "CS010"
+        ]
+    },
+    "ticket_spaces_serial":{
+        "description": "Testes-Api-Rastreabilidade",
+        "serial": "             ",
+        "causes": [
+          "CS010"
+        ]
+    },
+    "ticket_spaces_causes":{
+        "description": "Testes-Api-Rastreabilidade",
+        "serial": "grn123456777",
+        "causes": [
+          "             "
+        ]
+    },
+    "create_pcb":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_grn":{
+        "grn": "",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_material":{
+        "grn": "jv123654900",
+        "material": "",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_material_descr":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_material_group":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_vendor":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_lotCode":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_datecode":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "grdswgh",
+        "datecode": "",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_manufacturer":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "grdswgh",
+        "datecode": "asrfrea",
+        "manufacturer": "",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_mpn":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "grdswgh",
+        "datecode": "asrfrea",
+        "manufacturer": "zsdfrea",
+        "mpn": "",
+        "original_quantity": 1
+    },
+    "pcb_original_quant":{
+        "grn": "jv123654900",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "grdswgh",
+        "datecode": "asrfrea",
+        "manufacturer": "zsdfrea",
+        "mpn": "uyfgtryd",
+        "original_quantity":""
+    },
+    "pcb_invgrn":{
+        "grn": "           ",
+        "material": "mat",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_invmaterial":{
+        "grn": "jv123654988",
+        "material": "                ",
+        "material_descr": "vgyhvbhvb",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_invmaterialdescr":{
+        "grn": "jv123654988",
+        "material": "mat",
+        "material_descr": "             ",
+        "material_group": "hvbhvbh",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_invmaterialgroup":{
+        "grn": "jv123654988",
+        "material": "mat",
+        "material_descr": "gfdsaggr",
+        "material_group": "          ",
+        "vendor": "joao",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_inv_vendor":{
+        "grn": "jv123654988",
+        "material": "mat",
+        "material_descr": "gfdsaggr",
+        "material_group": "hfusdahfdus",
+        "vendor": "           ",
+        "lotCode": "dfgfgdf",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_inv_lotCode":{
+        "grn": "jv123654988",
+        "material": "mat",
+        "material_descr": "gfdsaggr",
+        "material_group": "hfusdahfdus",
+        "vendor": "hdusahdus",
+        "lotCode": "           ",
+        "datecode": "fgdgfdgfd",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_inv_datecode":{
+        "grn": "jv123654988",
+        "material": "mat",
+        "material_descr": "gfdsaggr",
+        "material_group": "hfusdahfdus",
+        "vendor": "hdusahdus",
+        "lotCode": "udhfushkj",
+        "datecode": "            ",
+        "manufacturer": "gfdgfdg",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_inv_manufacturer":{
+        "grn": "jv123654988",
+        "material": "mat",
+        "material_descr": "gfdsaggr",
+        "material_group": "hfusdahfdus",
+        "vendor": "hdusahdus",
+        "lotCode": "udhfushkj",
+        "datecode": "askjiudfbhika",
+        "manufacturer": "           ",
+        "mpn": "fgdgfdgdf",
+        "original_quantity": 1
+    },
+    "pcb_inv_mpn":{
+        "grn": "jv123654988",
+        "material": "mat",
+        "material_descr": "gfdsaggr",
+        "material_group": "hfusdahfdus",
+        "vendor": "hdusahdus",
+        "lotCode": "udhfushkj",
+        "datecode": "ushdushdua",
+        "manufacturer": "ikjasfhdiu",
+        "mpn": "            ",
+        "original_quantity": 1
+    },
+    "item_without_grn": {
+        "grn": "",
+        "material": "testeRastreabilidade",
+        "material_descr": "testeRastreabilidade",
+        "material_group": "testeRastreabilidade",
+        "vendor": "testeRastreabilidade",
+        "lot": "testeRastreabilidade",
+        "datecode": "testeRastreabilidade",
+        "manufacturer": "testeRastreabilidade",
+        "mpn": "testeRastreabilidade",
+        "original_quantity": 30
+    },
+    "item_without_material": {
+        "grn": "Grn123456777",
+        "material": "",
+        "material_descr": "testeRastreabilidade",
+        "material_group": "testeRastreabilidade",
+        "vendor": "testeRastreabilidade",
+        "lot": "testeRastreabilidade",
+        "datecode": "testeRastreabilidade",
+        "manufacturer": "testeRastreabilidade",
+        "mpn": "testeRastreabilidade",
+        "original_quantity": 30
+    },
+    "item_without_materialgroup": {
+        "grn": "Grn223456111",
+        "material": "testeRastreabilidade",
+        "material_descr": "testeRastreabilidade",
+        "material_group": "",
+        "vendor": "testeRastreabilidade",
+        "lot": "testeRastreabilidade",
+        "datecode": "testeRastreabilidade",
+        "manufacturer": "testeRastreabilidade",
+        "mpn": "testeRastreabilidade",
+        "original_quantity": 30
+    },
+    "item_without_vendor": {
+        "grn": "Grn113456789",
+        "material": "testeRastreabilidade",
+        "material_descr": "testeRastreabilidade",
+        "material_group": "testeRastreabilidade",
+        "lot": "testeRastreabilidade",
+        "datecode": "testeRastreabilidade",
+        "manufacturer": "testeRastreabilidade",
+        "mpn": "testeRastreabilidade",
+        "original_quantity": 30
+    },
+    "item_without_lot": {
+        "grn": "Grn333456789",
+        "material": "testeRastreabilidade",
+        "material_descr": "testeRastreabilidade",
+        "material_group": "testeRastreabilidade",
+        "vendor": "testeRastreabilidade",
+        "datecode": "testeRastreabilidade",
+        "manufacturer": "testeRastreabilidade",
+        "mpn": "testeRastreabilidade",
+        "original_quantity": 30
+    },
+    "create_param_log_field": {
+        "valueLog": "",
+        "valueConverted": "rest-API"
+    },
+    "create_param_converted_field": {
+        "valueLog": "teste-rest-API",
+        "valueConverted": ""
+    },
+    "create_param_blank_registration": {
+        "valueLog": "",
+        "valueConverted": ""
+    }
+    
+
+       
+}

@@ -1,0 +1,79 @@
+{
+    "editspecific": {
+        "name": "Testando-Rest",
+        "register": "testandoAPI",
+        "email": "user_api@teste.com",
+        "role": 0
+    },
+    "editparam": {
+        "valueLog": "test-rest-jabil",
+        "valueConverted": "rest-API-jabil",
+        "isToSend": true
+    },
+    "updateitem": {
+        "id": "263e57d2-52d9-453e-8231-af40bf893d17",
+        "grn": "Grn1234567891010",
+        "dmi": null,
+        "pcb": null,
+        "material": "testeRastreabilidadeAPI",
+        "material_descr": "testeRastreabilidadeAPI",
+        "material_group": "testeRastreabilidadeAPI",
+        "vendor": "testeRastreabilidadeAPI",
+        "lot": "testeRastreabilidadeAPI",
+        "datecode": "testeRastreabilidadeAPI",
+        "manufacturer": "testeRastreabilidadeAPI",
+        "mpn": "testeRastreabilidadeAPI",
+        "original_quantity": 30,
+        "created_at": "2023-09-08T18:44:04.6270675"
+    },
+    "updatecause": {
+        "description": "TestandoAPIrest",
+        "actionPlan": "APIRestTeste"
+    },
+    "updateticket": {
+        "serials": [
+            "JV123456000"
+        ]
+    },
+    "updateticketid": {
+        "ticketCauses": [
+            {
+                "code": "CS011",
+                "newStatus": "CrdCorrection"
+            }
+        ]
+    },
+    "updatepcbid": {
+        "grn": "jv123654900",
+        "material": "qa",
+        "material_descr": "string",
+        "material_group": "string",
+        "vendor": "string",
+        "lotCode": "string",
+        "datecode": "string",
+        "manufacturer": "string",
+        "mpn": "string",
+        "original_quantity": 0
+    },
+    "updatedmi": {
+        "material": "qa",
+        "material_descr": "string",
+        "material_group": "string",
+        "vendor": "string",
+        "lot": "string",
+        "datecode": "string",
+        "manufacturer": "string",
+        "mpn": "string"
+    },
+    "updatematerial": {
+        "stepId": "3c5815cd-a993-47cc-bf5d-0674492c9019",
+        "materials": [
+          "testeRastreabilidade"
+        ]
+    },
+    "updatematerials": {
+        "stepId": "3c5815cd-a993-47cc-bf5d-0674492c9019",
+        "material": "testeRastreabilidade-API",
+        "material_descr": "rastreabilidadeTeste-API"
+      }
+}
