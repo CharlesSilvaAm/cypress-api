@@ -4,7 +4,7 @@ const { connectToDatabase } = require('./cypress/support/sqlserver')
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://172.16.16.73:3153',
+    baseUrl: 'http://172.16.16.73:3333',
     video: true,
     projectId: 'f2960497-eb5f-4e7b-ab4b-819b2f14d34c',
     recordKey: "f2960497-eb5f-4e7b-ab4b-819b2f14d34c",
