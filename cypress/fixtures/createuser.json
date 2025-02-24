@@ -17,7 +17,7 @@
     "required": {
         "name": "Rastre",
         "register": "TestApiRest",
-        "email": "icts@gmail.com",
+        "email": "teste@gmail.com",
         "role": 0
     },
     "create_grnallowed": {
