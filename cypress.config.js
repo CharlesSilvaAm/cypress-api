@@ -14,56 +14,56 @@ module.exports = defineConfig({
       on('task', {
         async deleteUser(email) {
           const request = config.db.request();
-          const query = `DELETE FROM [jabil-rastreabilidade].dbo.Users WHERE Email='${email}'`;
+          const query = `DELETE FROM [rastreabilidade].dbo.Users WHERE Email='${email}'`;
           await request.query(query);
           console.dir(request)
           return null;
         },
         async deleteParam(ValueLog) {
           const request = config.db.request();
-          const query = `DELETE FROM [jabil-rastreabilidade].dbo.Params WHERE ValueLog='${ValueLog}'`;
+          const query = `DELETE FROM [rastreabilidade].dbo.Params WHERE ValueLog='${ValueLog}'`;
           await request.query(query);
           console.dir(request)
           return null;
         },
         async deleteItem(grn) {
           const request = config.db.request();
-          const query = `DELETE FROM [jabil-rastreabilidade].dbo.Items WHERE Grn='${grn}'`;
+          const query = `DELETE FROM [rastreabilidade].dbo.Items WHERE Grn='${grn}'`;
           await request.query(query);
           console.dir(request)
           return null;
         },
         async deleteCause(description) {
           const request = config.db.request();
-          const query = `DELETE FROM [jabil-rastreabilidade].dbo.Causes WHERE Description='${description}';`;
+          const query = `DELETE FROM [rastreabilidade].dbo.Causes WHERE Description='${description}';`;
           await request.query(query);
           console.dir(request)
           return null;
         },
         async deleteTicket(serial) {
           const request = config.db.request();
-          const query = `DELETE FROM [jabil-rastreabilidade].dbo.Tickets WHERE serial='${serial}';`;
+          const query = `DELETE FROM [rastreabilidade].dbo.Tickets WHERE serial='${serial}';`;
           await request.query(query);
           console.dir(request)
           return null;
         },
         async deletePcb(grn) {
           const request = config.db.request();
-          const query = `DELETE FROM [jabil-rastreabilidade].dbo.EnelPCB WHERE grn='${grn}'`;
+          const query = `DELETE FROM [rastreabilidade].dbo.EnelPCB WHERE grn='${grn}'`;
           await request.query(query);
           console.dir(request)
           return null;
         },
         async deleteGrnAllowed(material) {
           const request = config.db.request();
-          const query = `DELETE FROM [jabil-rastreabilidade].dbo.GrnAllowed WHERE Material='${material}'`;
+          const query = `DELETE FROM [rastreabilidade].dbo.GrnAllowed WHERE Material='${material}'`;
           await request.query(query);
           console.dir(request)
           return null;
         },
         async deleteStepConfig(grn) {
           const request = config.db.request();
-          const query = `DELETE FROM [jabil-rastreabilidade].dbo.GrnConsumes WHERE grn='${grn}'`;
+          const query = `DELETE FROM [rastreabilidade].dbo.GrnConsumes WHERE grn='${grn}'`;
           await request.query(query);
           console.dir(request)
           return null;
