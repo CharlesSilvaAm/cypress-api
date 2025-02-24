@@ -17,19 +17,19 @@
     },
     "authfct": {
         "register": "operador_FCT",
-        "password": "@Jabil2023"
+        "password": "@2023"
     },
     "authict": {
         "register": "operador_ICT",
-        "password": "@Jabil2023"
+        "password": "@2023"
     },
     "authpcb": {
         "register": "operador_PCB",
-        "password": "@Jabil2023"
+        "password": "@2023"
     },
     "authman": {
         "register": "operador_MAN",
-        "password": "@Jabil2023"
+        "password": "@2023"
     }
 }
 
