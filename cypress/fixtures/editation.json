@@ -6,8 +6,8 @@
         "role": 0
     },
     "editparam": {
-        "valueLog": "test-rest-jabil",
-        "valueConverted": "rest-API-jabil",
+        "valueLog": "test-rest",
+        "valueConverted": "rest-API",
         "isToSend": true
     },
     "updateitem": {
