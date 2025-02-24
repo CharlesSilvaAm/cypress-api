@@ -8,8 +8,8 @@
 
 
     "searchparam": {
-        "ValueLog": "Jabil rastreabilidade",
-        "ValueConverted": "rest-jabil"
+        "ValueLog": "rastreabilidade",
+        "ValueConverted": "rest"
     },
     "querystring": {"Process":"0"},
 
